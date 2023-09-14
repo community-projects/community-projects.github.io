@@ -218,7 +218,8 @@ function toggleLayer(id){
 window.initMap = initMap;
 $(function()
 {
-    $("#advisoryContainer").hide();
+    $("#mapContainer").hide();
+    $("#advisoryContainer").show();
     $("#viewToggle").data("state", "list");
     $("#parkingToggle").data("state", "on");
     $("#parkingToggle").addClass("secondary");

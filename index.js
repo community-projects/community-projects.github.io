@@ -228,13 +228,11 @@ $(function()
     $("#resourcesContainer").hide();
     $("#mapMarkersToggle").hide()
 
-
-
     $("#viewToggle").data("state", "list");
     $("#aolrcToggle").data("state", "on");
-    $("#aolrcToggle").addClass("secondary");
+    $("#aolrcToggle").addClass("primary");
     $("#accoToggle").data("state", "on");
-    $("#accoToggle").addClass("secondary");
+    $("#accoToggle").addClass("primary");
 
     $("#mapToggle").click(function()
     {
